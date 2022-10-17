@@ -27,7 +27,7 @@ public class Server {
     private String email;
     private String imgUrl;
     @Column(unique = true)
-    @NotEmpty(message = "Ip Address can not be empty")
+    @NotEmpty(message = "Ip Address can't be empty")
     private String ipAddress;
     private String type;
     private String memory;
